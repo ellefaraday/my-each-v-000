@@ -6,7 +6,7 @@ if block_given?
     i +=1
   end
 else
-  puts "Missing a block!"
+  "Missing a block!"
 end
   array
 end
