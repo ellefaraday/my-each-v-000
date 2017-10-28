@@ -11,4 +11,5 @@ end
   array
 end
 
+array =[1,2,3]
 my_each(array) {|item| puts item}
