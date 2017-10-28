@@ -4,6 +4,7 @@ if block?
   while i<array.length
     yield(array[i])
     i +=1
+  end
 else
   puts "Missing a block!"
 end
@@ -11,6 +12,3 @@ end
 end
 
 my_each(array) {|item| puts item}
-
-
-
