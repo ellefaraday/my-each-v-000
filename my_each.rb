@@ -12,4 +12,4 @@ end
 end
 
 array =[1,2,3]
-my_each(array) {|item| puts item}
+my_each(array) {|item| item}
